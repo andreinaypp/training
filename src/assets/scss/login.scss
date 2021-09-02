@@ -1,0 +1,93 @@
+.body-login {
+  background: url(../images/background-login.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    .logo {
+      text-align: center;
+      img {
+        width: 200px;
+      }
+    }
+    .form-login {
+      margin: auto;
+      margin-bottom: 1rem;
+      .username {
+        background-image: url(../images/username-icon.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
+        background-size: 20px;
+        background-color: #2e3338;
+        border-color: transparent;
+        text-align: center;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, .9);
+        &:focus {
+          color: rgba(255, 255, 255, .9);
+          background-color: #2e3338;
+          border-color: transparent;
+          box-shadow: 0 0 0 2px rgba(54, 69, 64, .3);
+        }
+      }
+      .password {
+        display: inline;
+        background-image: url(../images/padlock-icon.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
+        background-size: 20px;
+        background-color: #2e3338;
+        border-color: transparent;
+        text-align: center;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, .9);
+        &:focus {
+          color: rgba(255, 255, 255, .9);
+          background-color: #2e3338;
+          border-color: transparent;
+          box-shadow: 0 0 0 2px rgba(54, 69, 64, .3);
+        }
+      }
+      .button {
+        width: 100%;
+        background: #bb1010;
+        border-color: transparent;
+        text-align: center;
+        border-radius: 10px;
+        color: rgba(255, 255, 255, .9);
+        &:active {
+          background: #8a0808;
+          border-color: rgba(255, 100, 100, .3);
+        }
+        &:focus {
+          background: #8a0808;
+          border-color: rgba(255, 100, 100, .3);
+          box-shadow: 0 0 0 0.1rem rgba(255, 100, 100, .3);
+        }
+        &:hover {
+          background: #8a0808;
+          border-color: rgba(255, 100, 100, .3);
+          box-shadow: 0 0 0 0.1rem rgba(255, 100, 100, .3);
+        }
+      }
+    }
+    .sing-up {
+      text-align: center;
+      color: rgba(255, 255, 255, .9);
+      font-size: 13px;
+      a {
+        color: #bb1010;
+        padding: 0 5px;
+        text-decoration: none;
+      }
+    }
+    .social {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
