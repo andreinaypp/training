@@ -1,0 +1,1 @@
+let open=document.querySelector("#open"),close=document.querySelector("#close");function abrirMenu(){alert("dando click")}open.addEventListener("click",abrirMenu);

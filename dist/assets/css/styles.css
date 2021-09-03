@@ -7961,6 +7961,73 @@ body {
       width: 85%;
       height: auto; }
 
+.menu-open {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  background-color: #262b31ee;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  padding: 5rem 1rem 3rem 1rem;
+  transition: all .7s; }
+  .menu-open .icon-close {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-10px) translateY(10px);
+    background-color: transparent;
+    border: none; }
+  .menu-open .contenedor-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+    @media (min-height: 450px) {
+      .menu-open .contenedor-menu {
+        justify-content: space-evenly; } }
+    .menu-open .contenedor-menu h1, .menu-open .contenedor-menu .h1 {
+      font-weight: bold;
+      text-align: center; }
+    .menu-open .contenedor-menu ul {
+      padding-left: 0;
+      list-style: none; }
+      .menu-open .contenedor-menu ul li {
+        border-top: 1px solid rgba(55, 69, 80, 0.7);
+        border-bottom: 1px solid rgba(55, 69, 80, 0.7);
+        padding: .5rem 1rem; }
+        .menu-open .contenedor-menu ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: 500; }
+          .menu-open .contenedor-menu ul li a:focus {
+            color: #8a0808; }
+        .menu-open .contenedor-menu ul li .notificacion {
+          display: inline-block;
+          font-size: .75em;
+          font-weight: 700;
+          line-height: 1;
+          color: #ffffff;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: 50%;
+          background-color: #8a0808;
+          padding: .25rem .4rem;
+          margin-left: .8rem; }
+    .menu-open .contenedor-menu .logo-menu {
+      width: 60%; }
+    .menu-open .contenedor-menu .redes {
+      padding: 2rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+      .menu-open .contenedor-menu .redes a img {
+        width: 75%; }
+
 nav {
   background: #17191d;
   position: fixed;

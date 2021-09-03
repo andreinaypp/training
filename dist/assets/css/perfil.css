@@ -51,19 +51,21 @@ body {
         body .contenedor .profile-content .info-profile .date-profile h6 {
           color: rgba(255, 255, 255, 0.9);
           padding-right: .5rem; }
-      body .contenedor .profile-content .boton {
-        border-color: transparent;
-        border-radius: 10px;
-        padding: .5rem;
-        background-color: #bb1010;
-        color: rgba(255, 255, 255, 0.9);
-        font-weight: bold;
-        width: 100%;
-        margin-top: .5rem;
-        font-size: 14px; }
-        body .contenedor .profile-content .boton:active {
-          background: #8a0808;
-          border-color: rgba(255, 100, 100, 0.3); }
+      body .contenedor .profile-content .btn-pass {
+        width: 80%; }
+        body .contenedor .profile-content .btn-pass .boton {
+          border-color: transparent;
+          border-radius: 10px;
+          padding: .5rem;
+          background-color: #bb1010;
+          color: rgba(255, 255, 255, 0.9);
+          font-weight: bold;
+          width: 100%;
+          margin-top: .5rem;
+          font-size: 14px; }
+          body .contenedor .profile-content .btn-pass .boton:active {
+            background: #8a0808;
+            border-color: rgba(255, 100, 100, 0.3); }
     body .contenedor .redes {
       height: 15%;
       display: flex;

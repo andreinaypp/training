@@ -63,22 +63,24 @@ body {
           }
         }
       }
-      .boton {
-        border-color: transparent;
-        border-radius: 10px;
-        padding: .5rem;
-        background-color: #bb1010;
-        color: rgba(255, 255, 255, .9);
-        font-weight: bold;
-        width: 100%;
-        margin-top: .5rem;
-        font-size: 14px;
-        &:active {
-          background: #8a0808;
-          border-color: rgba(255, 100, 100, .3);
+      .btn-pass {
+        width: 80%;
+        .boton {
+          border-color: transparent;
+          border-radius: 10px;
+          padding: .5rem;
+          background-color: #bb1010;
+          color: rgba(255, 255, 255, .9);
+          font-weight: bold;
+          width: 100%;
+          margin-top: .5rem;
+          font-size: 14px;
+          &:active {
+            background: #8a0808;
+            border-color: rgba(255, 100, 100, .3);
+          }
         }
       }
-      
     }
     .redes {
       height: 15%;

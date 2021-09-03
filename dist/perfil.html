@@ -13,12 +13,65 @@
 
 <body>
   <div class="menu">
-    <button>
+    <button id="open">
       <img src="assets/images/menu.png" alt="menu">
     </button>
     <img src="assets/images/logo-watermark.png" alt="logo">
   </div>
 
+  <div class="menu-open">
+    <button id="close" class="icon-close">
+      <img src="assets/images/close.svg" alt="close">
+    </button>
+    <div class="contenedor-menu">
+      <h1>Menu</h1>
+      <ul>
+        <li>
+          <a href="#">
+            Calendario
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Notificaciones
+          </a>
+          <span class="notificacion">2</span>
+        </li>
+        <li>
+          <a href="#">
+            Sobre Nosotros
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Aviso Legal
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Cerrar Sesión
+          </a>
+        </li>
+      </ul>
+      <div class="text-center">
+        <img class="logo-menu" src="assets/images/logo.png" alt="logo forward">
+      </div>
+      <div class="redes">
+        <a href="#">
+          <img src="assets/images/twitter-icon.png" alt="twitter">
+        </a>
+        <a href="#">
+          <img src="assets/images/youtube-icon.png" alt="youtube">
+        </a>
+        <a href="#">
+          <img src="assets/images/facebook-icon.png" alt="facebook">
+        </a>
+        <a href="#">
+          <img src="assets/images/instagam-icon.png" alt="instagam">
+        </a>
+      </div>
+    </div>
+  </div>
 
   <div class="contenedor">
     <div class="profile-content">
@@ -50,7 +103,7 @@
           <p>20/20/20</p>
         </div>
       </article>
-      <div class="col-10 col-md-8">
+      <div class="btn-pass">
         <button type="button" class="boton">Cambiar Contraseña</button>
       </div>
     </div>
@@ -95,5 +148,15 @@
   </nav>
 </body>
 <script>
+  let open = document.querySelector("#open");
+  let close = document.querySelector("#close");
+
+  open.addEventListener("click", () => {
+    document.querySelector(".menu-open").style.left = "0%";
+  });
+  close.addEventListener("click", () => {
+    document.querySelector(".menu-open").style.left = "-100%";
+  });
+
 </script>
 </html>

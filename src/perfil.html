@@ -39,7 +39,7 @@
           <p>20/20/20</p>
         </div>
       </article>
-      <div class="col-10 col-md-8">
+      <div class="btn-pass">
         <button type="button" class="boton">Cambiar Contraseña</button>
       </div>
     </div>
@@ -63,5 +63,15 @@
   @@include("partials/footer.html")
 </body>
 <script>
+  let open = document.querySelector("#open");
+  let close = document.querySelector("#close");
+
+  open.addEventListener("click", () => {
+    document.querySelector(".menu-open").style.left = "0%";
+  });
+  close.addEventListener("click", () => {
+    document.querySelector(".menu-open").style.left = "-100%";
+  });
+
 </script>
 </html>
