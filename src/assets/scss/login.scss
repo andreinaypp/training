@@ -54,11 +54,24 @@
             box-shadow: 0 0 0 2px rgba(54, 69, 64, .3);
           }
         }
-        .eyes-hide {
+        .eyes-hide,
+        .eyes-show {
           position: absolute;
           top: 0;
           right: 0;
-          transform: translateX(-100%) translateY(25%);
+          width: 45px;
+          transition: all .3s;
+          background: transparent;
+          transform: translateX(-10%) translateY(15%);
+          border: none;
+        }
+        .eyes-hide {
+          display: none;
+          transition: all .3s;
+        }
+        .eyes-show {
+          display: block;
+          transition: all .3s;
         }
       }
       .button {

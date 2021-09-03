@@ -48,11 +48,22 @@
             background-color: #2e3338;
             border-color: transparent;
             box-shadow: 0 0 0 2px rgba(54, 69, 64, 0.3); }
-        .body-login .container .form-login .input-pass .eyes-hide {
+        .body-login .container .form-login .input-pass .eyes-hide,
+        .body-login .container .form-login .input-pass .eyes-show {
           position: absolute;
           top: 0;
           right: 0;
-          transform: translateX(-100%) translateY(25%); }
+          width: 45px;
+          transition: all .3s;
+          background: transparent;
+          transform: translateX(-10%) translateY(15%);
+          border: none; }
+        .body-login .container .form-login .input-pass .eyes-hide {
+          display: none;
+          transition: all .3s; }
+        .body-login .container .form-login .input-pass .eyes-show {
+          display: block;
+          transition: all .3s; }
       .body-login .container .form-login .button {
         width: 100%;
         background: #bb1010;

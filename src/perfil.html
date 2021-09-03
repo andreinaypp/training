@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  @@include("partials/navbar-menu.html")
+  @@include("partials/navbar-menu.html", {"title": ""})
 
   <div class="contenedor">
     <div class="profile-content">
@@ -62,16 +62,5 @@
 
   @@include("partials/footer.html")
 </body>
-<script>
-  let open = document.querySelector("#open");
-  let close = document.querySelector("#close");
-
-  open.addEventListener("click", () => {
-    document.querySelector(".menu-open").style.left = "0%";
-  });
-  close.addEventListener("click", () => {
-    document.querySelector(".menu-open").style.left = "-100%";
-  });
-
-</script>
+<script src="assets/js/main.js"></script>
 </html>

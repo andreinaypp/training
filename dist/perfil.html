@@ -16,6 +16,7 @@
     <button id="open">
       <img src="assets/images/menu.png" alt="menu">
     </button>
+    <h5 class="title"></h5>
     <img src="assets/images/logo-watermark.png" alt="logo">
   </div>
 
@@ -43,7 +44,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="aviso-legal.html">
             Aviso Legal
           </a>
         </li>
@@ -147,16 +148,5 @@
     </ul>
   </nav>
 </body>
-<script>
-  let open = document.querySelector("#open");
-  let close = document.querySelector("#close");
-
-  open.addEventListener("click", () => {
-    document.querySelector(".menu-open").style.left = "0%";
-  });
-  close.addEventListener("click", () => {
-    document.querySelector(".menu-open").style.left = "-100%";
-  });
-
-</script>
+<script src="assets/js/main.js"></script>
 </html>

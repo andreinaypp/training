@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  @@include("partials/head.html", {"title": "Forward - Personal Training"})
+  <link rel="stylesheet" href="assets/css/soporte-tecnico.min.css">
+</head>
+
+<body class="body-soporte">
+  @@include("partials/navbar-arrow.html", {"title": "Soporte Técnico"})
+  <div class="contenedor-soporte">
+    <article class="text-content">
+      <p>Muchas gracias por colaborar con la mejora de la aplicación.</p>
+      <p>Si se encuentra en algún problema técnico, puede enviarnos información detallada a través de este formulario.</p>
+      <p>Cuantos más detalles indique en la descripción, más nos a tramitar la incidencia</p>
+    </article>
+    <article>
+      <form>
+        <div class="mb-3">
+          <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Correo Electrónico">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Título" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="3" placeholder="Descripción"></textarea>
+        </div>
+        <button type="submit" class="button mb-3">Enviar</button>
+      </form>
+    </article>
+  </div>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
