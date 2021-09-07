@@ -64,5 +64,23 @@
     </footer>
   </div>
 </body>
-<script src="assets/js/main.js"></script>
+<script>
+  window.addEventListener('load', () =>  {
+    let hide = document.querySelector("#hide");
+    let show = document.querySelector("#show");
+    let password = document.querySelector("#password");
+  
+    show.addEventListener("click", () => {
+      password.setAttribute("type", "text");
+      hide.style.display = "block";
+      show.style.display = "none";
+    });
+  
+    hide.addEventListener("click", () => {
+      password.setAttribute("type", "password");
+      hide.style.display = "none";
+      show.style.display = "block";
+    });
+  });
+</script>
 </html>
