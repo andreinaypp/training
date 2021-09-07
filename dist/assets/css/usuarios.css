@@ -2,7 +2,8 @@
   background: #222a31;
   background-position: top;
   background-size: cover;
-  overflow-y: auto; }
+  overflow-y: auto;
+  height: 100vh; }
   .body-usuarios .contenedor-search {
     background: url(../images/background-users.png) no-repeat;
     background-size: cover;
