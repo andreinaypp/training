@@ -8014,7 +8014,7 @@ body {
       .menu-open .contenedor-menu ul li {
         border-top: 1px solid rgba(55, 69, 80, 0.7);
         border-bottom: 1px solid rgba(55, 69, 80, 0.7);
-        padding: .5rem 1rem; }
+        padding: .5rem 0rem; }
         .menu-open .contenedor-menu ul li a {
           text-decoration: none;
           color: #ffffff;
