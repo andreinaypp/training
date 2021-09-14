@@ -25,13 +25,13 @@
       line-height: 2;
       border-color: transparent;
       border-radius: .7rem;
-      color: rgba(221, 221, 255, .4);
+      color: rgba(221, 221, 255, .8);
       font-size: .8rem;
       &:focus {
         background: #343b41;
         border-color: transparent;
         box-shadow: 0 0 0 2px rgb(54, 69, 64);
-        color: rgba(221, 221, 255, .4);
+        color: rgba(221, 221, 255, .8);
       }
     }
   }

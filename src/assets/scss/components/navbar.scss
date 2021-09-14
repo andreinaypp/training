@@ -80,9 +80,13 @@
     ul {
       padding-left: 0;
       list-style: none;
+      hr {
+        margin: 0;
+        background-color: $gray-text;
+      }
       li {
-        border-top: 1px solid $gray;
-        border-bottom: 1px solid $gray;
+        // border-top: 1px solid $gray;
+        // border-bottom: 1px solid $gray;
         padding: .5rem 0rem;
         a {
           text-decoration: none;
@@ -118,7 +122,7 @@
       justify-content: space-evenly;
       a {
         img {
-          width: 75%;
+          height: 20px;
         }
       }
     }

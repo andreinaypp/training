@@ -111,6 +111,9 @@
     .social {
       display: flex;
       justify-content: space-evenly;
+      img {
+        height: 25px;
+      }
     }
   }
 }
