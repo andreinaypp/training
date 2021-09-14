@@ -1,7 +1,7 @@
 {
-  "name": "Siroco",
+  "name": "forward",
   "version": "1.0.0",
-  "description": "Web Siroco",
+  "description": "Web forward",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
