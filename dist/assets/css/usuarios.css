@@ -59,6 +59,5 @@
       justify-content: center;
       align-items: center;
       transform: translateX(-50%) translateY(-115%); }
-      .body-usuarios .contenedor-ppal .red-circle p {
-        color: #fff;
-        margin-bottom: 0; }
+      .body-usuarios .contenedor-ppal .red-circle img {
+        width: 40%; }
