@@ -22,10 +22,8 @@
     top: 0;
     transform: translateY(10px);
   }
-  img {
-    height: 30px;
-  }
   .title {
+    text-align: center;
     color: #fff;
     font-weight: bold;
     margin: 0;
@@ -121,8 +119,10 @@
       align-items: center;
       justify-content: space-evenly;
       a {
+        display: flex;
+        justify-content: center;
         img {
-          height: 20px;
+          width: 80%;
         }
       }
     }

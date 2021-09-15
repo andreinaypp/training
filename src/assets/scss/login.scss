@@ -16,12 +16,12 @@
     }
     .form-login {
       margin: auto;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       .username {
         background-image: url(../images/login/username-icon.png);
         background-repeat: no-repeat;
         background-position: 9px;
-        background-size: 18px;
+        background-size: 6%;
         background-color: #2e3338;
         border-color: transparent;
         text-align: center;
@@ -41,7 +41,7 @@
           background-image: url(../images/login/padlock-icon.png);
           background-repeat: no-repeat;
           background-position: 10px;
-          background-size: 15px;
+          background-size: 5%;
           background-color: #2e3338;
           border-color: transparent;
           text-align: center;
@@ -62,7 +62,7 @@
           width: 45px;
           transition: all .3s;
           background: transparent;
-          transform: translateX(-5%) translateY(22%);
+          transform: translateX(-5%) translateY(24%);
           border: none;
         }
         .eyes-hide {
