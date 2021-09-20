@@ -48,7 +48,7 @@ body {
       }
       .info-profile{
         border-top: 1px solid rgba(221, 221, 255, .2);
-        padding-top: .5rem;
+        padding-top: 1rem;
         .date-profile {
           width: 100%;
           display: flex;
@@ -59,6 +59,9 @@ body {
             flex: 0 0 20%;
             justify-content: center;
             margin-right: .5rem;
+            .item {
+              width: 65%;
+            }
           }
           p {
             flex: 0 0 80%;
